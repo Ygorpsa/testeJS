@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSISTENTE VIRTUAL TIBA SLACK</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="/view/images/logo-api.png" />
+      </div>
+    </header>
+    <section>
+      <div id="msg">
+        INSIRA MENSAGEM <input type="text" name="mensagem" id="msg" />
+      </div>
+      <div id="botoes">
+        <input type="button" value="Ativar " onclick="sendMensage()" />
+        <input type="button" value="Desligar " onclick="offSendMensage()" />
+      </div>
+
+      <div id="res">...</div>
+    </section>
+    <footer>
+      <p>&copy; Ygor Pereira</p>
+    </footer>
+    <script src="/view/script.js"></script>
+  </body>
+</html>
